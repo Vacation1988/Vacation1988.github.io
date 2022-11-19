@@ -1,5 +1,5 @@
 
-//导航栏美化
+//导航栏美化 --
 var OriginTitile = document.title;// 防止和动态标题冲突，保持显示原标题
 // 返回顶部 显示网页阅读进度
 window.onscroll = percent;// 执行函数
