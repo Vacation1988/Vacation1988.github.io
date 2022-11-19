@@ -1,0 +1,55 @@
+/* 手机本体 */
+#card_author.iPhone-14-pro {
+    position: relative;
+    background-color: #998c9e;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+/* 手机屏幕 */
+.iPhone-14-pro .screen {
+    position: absolute;
+    inset: 2px;
+    background-color: black;
+    border-radius: 48px;
+    /* 边框 */
+    padding: 10px;
+}
+
+/* 屏幕内容 */
+.iPhone-14-pro .screen .wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background: url(https://pic4.zhimg.com/80/v2-5b7e9d9ed12aac15b9c07b249733aff3_1440w.webp);
+    background-size: cover;
+}
+
+/* 灵动岛 */
+.dynamic-island {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 85px;
+    height: 25px;
+    left: 50%;
+    top: 20px;
+    padding: 0 10px;
+    transform: translateX(-50%);
+    background: black;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    cursor: default;
+    user-select: none;
+}
+
+/* 鼠标悬浮时灵动岛的状态 */
+.dynamic-island:hover {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 48px;
+    width: 200px;
+    height: 200px;
+    background: url(https://pic1.imgdb.cn/item/635ceb7f16f2c2beb1e20c46.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,20 @@
+# - class_name: VIP
+#   class_desc: 
+#   link_list:
+#     - name: Akilar
+#       link: https://akilar.top
+#       avatar: /img/siteicon/favicon.png
+#       descr: 欢迎光临糖果屋
+#       siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
+      # siteshot就是站点缩略图的链接。
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
+    - name: 唐志远の博客
+      link: https://tzy1997.com/
+      avatar: https://bu.dusays.com/2022/01/14/cd5ffd485f867.jpg
+      descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。
+    - name: 安知鱼`Blog
+      link: https://anzhiy.cn/
+      avatar: https://image.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      descr: 生活明朗，万物可爱
