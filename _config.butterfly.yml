@@ -1072,12 +1072,12 @@ inject:
     # 站点动态title
     - <script async src="/js/diytitle.js"></script>
     # 背景宇宙星光canvas
-    - <script defer src="/js/universe.js"></script>
+    - <script defer src="/_js/universe.js"></script>
     - <canvas id="universe"></canvas>
     # 昼夜模式转换动画
-    - <script src="/js/sun_moon.js" async></script>
+    - <script src="/_js/sun_moon.js" async></script>
     # 公祭日变灰
-    #- <script async src="/js/grayscale.js"></script>
+    - <script async src="/_js/grayscale.js"></script>
     # 像素图标
     - <script async src="//at.alicdn.com/t/c/font_3684955_1u0ottreyz7.js"></script>
     # 阿里图标2
