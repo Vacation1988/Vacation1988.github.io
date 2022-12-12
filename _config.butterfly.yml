@@ -12,13 +12,12 @@ menu:
     分类: /categories/ || icon-fenlei || faa-tada
   我的||icon-mianxingrenwuqingdan :
     音乐: /music_demo/ || icon-yinle || faa-tada
-    酱: /sauce/ || icon-yinle || faa-tada
+    前端test: /sauce/ || icon-yinle || faa-tada
     相册集: /album/ || icon-xiangce || faa-tada
     留言板: /comments/ || icon-pinglun || faa-tada
   关于||icon-gerenzhongxin-jihuo_: 
     关于本人: /about/ || icon-shan_ || faa-tada
     友链: /link/ || icon-lianjie || faa-tada
-    友链2: /dist/ || icon-lianjie || faa-tada
 # Code Blocks (代碼相關)
 # --------------------------------------
 
