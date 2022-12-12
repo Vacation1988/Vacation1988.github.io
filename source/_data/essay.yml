@@ -1,5 +1,10 @@
 - class_name: 即刻短文
   essay_list:
+    - content: 给自己的博客添加了流体动态个人主页
+      date: 2022/12/12
+      from: Sam
+      link: https://www.welucky.top/dist/
+      image: https://pic.imgdb.cn/item/6397452fb1fccdcd36e2fba6.jpg
     - content: 更换了图床，之前的图床网站以及不可用来。修改了导航栏位置。
       date: 2022/11/15
       from: Sam
@@ -8,8 +13,4 @@
       aplayer:
         server: tencent
         id: 001FGQba3i10mw
-    - content: 给自己的博客添加了流体动态个人主页
-      date: 2022/12/12
-      from: Sam
-      link: https://www.welucky.top/dist/
-      image: https://i.328888.xyz/2022/12/12/ywGu8.md.png
+    
