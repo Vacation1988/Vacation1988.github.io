@@ -59,3 +59,12 @@ mixin rightsideItem(array)
 
     button#go-up(type="button" title=_p("rightside.back_to_top"))
       i.fas.fa-arrow-up
+
+    button#darkmode_navswitch
+      a.darkmode_switchbutton(href="javascript:;" onclick="toggleWinbox()" title="切换背景-换一种感觉。")
+        i.fas.fa-image.fa-fw
+
+
+    button#darkmode_navswitch
+        a.darkmode_switchbutton(title=_p('rightside.night_mode_title') onclick="switchNightMode()")
+          i.fas.fa-adjust

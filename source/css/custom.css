@@ -69,11 +69,12 @@
 /* 代码框主题 */
 #article-container figure.highlight {
   border-radius: 10px;
+  width: 990px;
 }
 
 /* 评论框  */
 .vwrap {
-  box-shadow: 2px 2px 5px #bbb;
+  box-shadow: 2px 2px 5px rgb(113, 0, 252);
   background: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   padding: 30px;
@@ -82,7 +83,7 @@
 
 /* 设置评论框 */
 .vcard {
-  box-shadow: 2px 2px 5px #bbb;
+  box-shadow: 2px 2px 5px rgb(248, 2, 2);
   background: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   padding: 30px;
@@ -320,19 +321,19 @@ div#page {
 }
 
 /* 归档页面 */
-div#archive {
+/* div#archive {
   background: rgba(255, 255, 255, 0.9);
-}
+} */
 
 /* 标签页面 */
-div#tag {
+/* div#tag {
   background: rgba(255, 255, 255, 0.9);
-}
+} */
 
 /* 分类页面 */
-div#category {
+/* div#category {
   background: rgba(255, 255, 255, 0.9);
-}
+} */
 /* about页面 */
 div#about {
   background: rgba(255, 255, 255, 0.9);

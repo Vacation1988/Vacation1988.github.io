@@ -933,3 +933,9 @@ CDN:
     # prismjs_autoloader:
     # artalk_js:
     # artalk_css:
+
+
+search:
+  path: search.xml
+  field: post
+  content: true

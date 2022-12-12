@@ -8,8 +8,12 @@
 #       siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
       # siteshot就是站点缩略图的链接。
 - class_name: 友情链接
-  class_desc: 那些人，那些事
+  class_desc: 该页面还未改造
   link_list:
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://img.zhheo.com/i/2022/08/19/62ff32fa28da1.png
+      descr: 分享设计与科技生活
     - name: 唐志远の博客
       link: https://tzy1997.com/
       avatar: https://bu.dusays.com/2022/01/14/cd5ffd485f867.jpg
@@ -18,3 +22,33 @@
       link: https://anzhiy.cn/
       avatar: https://image.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
+    - name: Classmate_Zhang
+      link: https://262259.xyz/
+      avatar: https://s3.bmp.ovh/imgs/2022/07/27/fc28cbf90fcd17d9.png
+      descr: 以梦为马，不负韶华
+      siteshot: https://s2.loli.net/2022/11/19/I1D6E9OyPWgvUx7.png
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: https://www.fomal.cc/assets/head.jpg
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+    - name: Sam の Blog
+      link: https://www.welucky.top/
+      avatar: https://pic1.imgdb.cn/item/635ceb7f16f2c2beb1e20c46.jpg
+      descr: 念念不忘，必有回响。
+      siteshot: https://pic.imgdb.cn/item/637773a616f2c2beb1011025.jpg
+    - name: 海拥
+      link: https://haiyong.site
+      avatar: https://haiyong.site
+      descr: 一个乐于分享技术与快乐的博主
+      siteshot: 
+    - name: wallleap
+      link: https://myblog.wallleap.cn
+      avatar: https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/img/custom/avatar.jpg
+      descr: Luwang's Blog
+      siteshot: 
+    - name: Sianx's Blog
+      link: https://sianx.com
+      avatar: https://cdn.bilicdn.tk/npm/picture-sianx@1.0.0/Blog/logo.png
+      descr: 总之岁月漫长, 然而值得等待。
+

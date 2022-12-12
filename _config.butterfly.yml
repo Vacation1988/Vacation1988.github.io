@@ -6,19 +6,19 @@
 
 menu:
   主页: / || icon-zhuye || faa-tada
-  文章||icon-mianxingrenwuqingdan :
-    時間軸: /archives/ || fas fa-archive
-    归档: /archives/ || icon-guidang || faa-tada
+  文章||icon-xiewenzhang :
+    归档: /Archives/ || icon-guidang || faa-tada
     标签: /tags/ || icon-biaoqian || faa-tada
     分类: /categories/ || icon-fenlei || faa-tada
   我的||icon-mianxingrenwuqingdan :
     音乐: /music_demo/ || icon-yinle || faa-tada
-    友链: /link/ || icon-lianjie || faa-tada
+    酱: /sauce/ || icon-yinle || faa-tada
+    相册集: /album/ || icon-xiangce || faa-tada
     留言板: /comments/ || icon-pinglun || faa-tada
   关于||icon-gerenzhongxin-jihuo_: 
     关于本人: /about/ || icon-shan_ || faa-tada
-    相册集: /album_set/ || icon-xiangce || faa-tada
-    相册集2: /album/ || icon-xiangce || faa-tada
+    友链: /link/ || icon-lianjie || faa-tada
+    友链2: /dist/ || icon-lianjie || faa-tada
 # Code Blocks (代碼相關)
 # --------------------------------------
 
@@ -27,7 +27,7 @@ highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: false # unit: px
-code_word_wrap: false
+code_word_wrap: true
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
@@ -57,7 +57,7 @@ algolia_search:
 # Local search
 local_search:
   enable: true
-  preload: false
+  preload: true
   CDN:
 
 # Math (數學)
@@ -161,7 +161,7 @@ post_meta:
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -642,8 +642,8 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - 祝大家2023心想事成！冲鸭！
-    - 念念不忘，必有回响。
+    - Waiting forever 
+    - Never leave
     
 
 # Loading Animation (加載動畫)
@@ -672,7 +672,7 @@ aside:
       link: https://github.com/Vacation1988
   
   card_recent_post:
-    enable: false
+    enable: true
     limit: 5 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
@@ -701,9 +701,9 @@ aside:
   
   card_announcement:
     enable: true
-    content: 
-      -  主域名：www.welucky.top 
-      -  备用域名：Vacation1988.github.io    
+    content:  
+        - 若无法显示emoji请刷新下浏览器
+      
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -814,7 +814,8 @@ pjax:
   exclude:
     # - xxxx
     # - xxxx
-
+    # - /js/ip.js
+    # - /js/ip_custom.js
 # Inject the css and script (aplayer/meting)
 aplayerInject:
   enable: true
@@ -822,11 +823,11 @@ aplayerInject:
 
 # Snackbar (Toast Notification 彈窗)
 # https://github.com/polonel/SnackBar
-# position 彈窗位置
+# position 弹窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
   enable: true
-  position: bottom-left
+  position: top-center
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
@@ -902,7 +903,7 @@ envelope_comment:
     title: 留言板
     comments: true
 
-#外挂标签
+#外挂标签 https://animate.style/
 wowjs:
   enable: true #控制动画开关。true是打开，false是关闭
   priority: 10 #过滤器优先级
@@ -915,7 +916,7 @@ wowjs:
       offset: 100 #选填项，开始动画的距离（相对浏览器底部）
       iteration: 2 #选填项，动画重复的次数
     - class: card-widget
-      style: animate__zoomIn
+      style: animate__fadeInLeftBig
 animate_css: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css
 wow_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js
 wow_init_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js
@@ -1036,6 +1037,7 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css">
     - <link rel="stylesheet" href="/css/music_custom.css">
     - <link rel="stylesheet" href="/css/custom_new.css">
+    #- <link rel="stylesheet" href="/css/my_custom.css">
     # 页面底部 footer 跳动的心
     - <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css">
     # 图标动效
@@ -1061,6 +1063,7 @@ inject:
     - <link rel="stylesheet" href="/css/nav_menu.css">
     # 相册集
     - <link rel="stylesheet" href="/css/album_page/album.css">
+    
 
   bottom:
     # - <script src="xxxx"></script>
@@ -1072,16 +1075,16 @@ inject:
     # 站点动态title
     - <script async src="/js/diytitle.js"></script>
     # 背景宇宙星光canvas
-    - <script defer src="/_js/universe.js"></script>
+    - <script defer src="/js/universe.js"></script>
     - <canvas id="universe"></canvas>
     # 昼夜模式转换动画
-    - <script src="/_js/sun_moon.js" async></script>
+    - <script src="/js/sun_moon.js" async></script>
     # 公祭日变灰
-    - <script async src="/_js/grayscale.js"></script>
+    - <script async src="/js/grayscale.js"></script>
     # 像素图标
     - <script async src="//at.alicdn.com/t/c/font_3684955_1u0ottreyz7.js"></script>
     # 阿里图标2
-    - <script async src="//at.alicdn.com/t/c/font_3753158_4umha9e7kgm.js"></script>
+    - <script async src="//at.alicdn.com/t/c/font_3753158_fjbt7x8grmj.js"></script>
     # 随机跳转
     - <script src="/themes/butterfly/scripts/helpers/random.js"></script>
     # 自定义js
@@ -1092,7 +1095,15 @@ inject:
     - <script data-pjax src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/js/swiper.min.js"></script>
     # 瀑布流
     - <script src="https://anzhiy.cn/js/waterfall/waterfall.js"></script> 
-    #
+    # ip定位
+    - <script src="/js/jquery.js"></script>
+    - <script src="/js/ip.js"></script> 
+    # 51la统计&灵雀统计
+    - <script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script>
+    - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+    - <script> LA.init({id:"Js4r8uaW3Ev7FXOJ",ck:"Js4r8uaW3Ev7FXOJ"})</script>
+    - <script>new LingQue.Monitor().init({id:"Js4r8uaW3Ev7FXOJ",sendSuspicious:true});</script>
+    - <script charset="utf-8" data-pjax="" src="/js/fuzhi.js"></script>
     
     
 
@@ -1125,7 +1136,7 @@ CDN:
     # main:
     # utils:
     # translate:
-    # local_search:
+    local_search: https://npm.elemecdn.com/anzhiyu-blog@2.1.2/js/search/local-search.js
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:

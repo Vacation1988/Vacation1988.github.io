@@ -7,8 +7,11 @@ nav#nav
         .back-menu-list-group
           .back-menu-list-title 网页
           .back-menu-list
+            a.back-menu-item(href='https://www.welucky.top/dist/', title='前往个人主页', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://pic.imgdb.cn/item/6376478816f2c2beb1cf4965.jpg')
+              span.back-menu-item-text 个人主页
             a.back-menu-item(href='/', title='前往博客主页', target='_blank', one-link-mark='yes')
-              img.back-menu-item-icon(src='https://image.anzhiy.cn/adminuploads/1/2022/09/05/6315ec9737ac4.png')
+              img.back-menu-item-icon(src='https://pic.imgdb.cn/item/6376478816f2c2beb1cf4965.jpg')
               span.back-menu-item-text 博客
             a.back-menu-item(href='https://www.welucky.top/SweetTime/', rel='external nofollow', title='前往Samの宝藏', target='_blank', one-link-mark='yes')
               img.back-menu-item-icon(src='https://pic1.imgdb.cn/item/635ceb7f16f2c2beb1e20c46.jpg')
@@ -17,11 +20,11 @@ nav#nav
               img.back-menu-item-icon(src='https://image.anzhiy.cn/adminuploads/1/2022/04/27/6268e7d9de532.png')
               span.back-menu-item-text 图床
         .back-menu-list-group
-          .back-menu-list-title 项目
+          .back-menu-list-title 相册
           .back-menu-list
-            a.back-menu-item(href='http://blgou.net/#/main/home', title='查看德信官网', target='_blank', rel='noopener nofollow', one-link-mark='yes')
-              img.back-menu-item-icon(src='https://image.anzhiy.cn/adminuploads/1/2022/09/15/6322cd942dbd9.png')
-              span.back-menu-item-text 德信官网
+            a.back-menu-item(href='https://www.welucky.top/album/', title='进入Samの相册', target='_blank', rel='noopener nofollow', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://pic.imgdb.cn/item/637a043f16f2c2beb1701339.jpg')
+              span.back-menu-item-text 我的相册
 
     a#site-name(href=url_for('/'))
       .title #[=config.title]
@@ -37,14 +40,14 @@ nav#nav
         a.site-page.social-icon.search
           i.fas.fa-search.fa-fw
     
-    if darkmode.enable && darkmode.button
-      div.nav-button#darkmode_navswitch
-        a.darkmode_switchbutton(type="button" title=_p('rightside.night_mode_title') onclick="switchNightMode()")
-          i.fas.fa-adjust
+    //- if darkmode.enable && darkmode.button
+    //-   div.nav-button#darkmode_navswitch
+    //-     a.darkmode_switchbutton(type="button" title=_p('rightside.night_mode_title') onclick="switchNightMode()")
+    //-       i.fas.fa-adjust
 
-    div.nav-button#darkmode_navswitch
-      a.darkmode_switchbutton(href="javascript:;" onclick="toggleWinbox()" title="切换背景-换一种感觉。")
-        i.fas.fa-image.fa-fw
+    //- div.nav-button#darkmode_navswitch
+    //-   a.darkmode_switchbutton(href="javascript:;" onclick="toggleWinbox()" title="切换背景-换一种感觉。")
+    //-     i.fas.fa-image.fa-fw
 
     div.nav-button#darkmode_navswitch
       a.darkmode_switchbutton(href="javascript:;" onclick=`window.open('/random/','_self')` title="随机文章。")
@@ -53,7 +56,7 @@ nav#nav
     div.nav-button#nav-totop
       a.totopbtn
         i.fas.fa-arrow-up
-        span#percent(onclick="btf.scrollToDest(0, 500)") [0]
+        span#percent(onclick="btf.scrollToDest(0,500)") [0]
     
     
     
