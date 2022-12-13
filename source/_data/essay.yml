@@ -4,7 +4,8 @@
       date: 2022/12/12
       from: Sam
       link: https://www.welucky.top/dist/
-      image: https://pic.imgdb.cn/item/6397452fb1fccdcd36e2fba6.jpg
+      image: 
+        - https://pic.imgdb.cn/item/6397452fb1fccdcd36e2fba6.jpg
     - content: 更换了图床，之前的图床网站以及不可用来。修改了导航栏位置。
       date: 2022/11/15
       from: Sam
