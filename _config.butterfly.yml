@@ -1062,6 +1062,8 @@ inject:
     - <link rel="stylesheet" href="/css/nav_menu.css">
     # 相册集
     - <link rel="stylesheet" href="/css/album_page/album.css">
+    # fps
+    - - <link rel="stylesheet" href="/css/fps.css">
     
 
   bottom:
@@ -1103,7 +1105,9 @@ inject:
     - <script> LA.init({id:"Js4r8uaW3Ev7FXOJ",ck:"Js4r8uaW3Ev7FXOJ"})</script>
     - <script>new LingQue.Monitor().init({id:"Js4r8uaW3Ev7FXOJ",sendSuspicious:true});</script>
     - <script charset="utf-8" data-pjax="" src="/js/fuzhi.js"></script>
-    
+    # fps
+    - <div id="fps"></div>
+    - <script src="/js/fps.js"></script>
     
 
 

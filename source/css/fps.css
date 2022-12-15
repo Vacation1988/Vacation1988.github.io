@@ -1,0 +1,20 @@
+#fps{
+    position: fixed;
+    right:10px;
+    bottom:4px;
+    z-index: 1919810;
+}
+
+[data-theme="light"] #fps{
+    background-color: #fffd;
+    padding: 4px;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
+[data-theme="dark"] #fps{
+    background-color: #0008;
+    padding: 4px;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
+
