@@ -11,8 +11,7 @@ menu:
     标签: /tags/ || icon-biaoqian || faa-tada
     分类: /categories/ || icon-fenlei || faa-tada
   我的||icon-mianxingrenwuqingdan :
-    音乐: /music_demo/ || icon-yinle || faa-tada
-    音乐2: /music/ || icon-yinle || faa-tada
+    音乐: /music/ || icon-yinle || faa-tada
     前端test: /sauce/ || icon-yinle || faa-tada
     相册集: /album/ || icon-xiangce || faa-tada
     留言板: /comments/ || icon-pinglun || faa-tada
