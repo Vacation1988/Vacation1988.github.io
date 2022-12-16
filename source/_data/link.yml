@@ -47,8 +47,26 @@
       avatar: https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/img/custom/avatar.jpg
       descr: Luwang's Blog
       siteshot: 
-    - name: Sianx's Blog
+    - name: Sianx's Blog 
       link: https://sianx.com
       avatar: https://cdn.bilicdn.tk/npm/picture-sianx@1.0.0/Blog/logo.png
       descr: 总之岁月漫长, 然而值得等待。
+    - name: Haog's log 
+      link: https://2768085634.github.io/
+      avatar: 
+      descr: To err is human, to forgive, divine.
+    - name: 呆鱼
+      link: https://daiyu-233.top/
+      avatar: https://daiyu-233.top/img/avatar.png
+      descr: 命运之所以称为命运，正是因为它无可改变。
+      screenshot: https://daiyu-233.top/img/Snipaste_2022-12-03_11-40-48.png
+    - name: SamのBlog
+      link: https://www.welucky.top/
+      avatar: https://pic1.imgdb.cn/item/635ceb7f16f2c2beb1e20c46.jpg
+      descr: 念念不忘，必有回响。
+      screenshot: https://pic.imgdb.cn/item/637773a616f2c2beb1011025.jpg
+    - name: 随风起
+      link: https://blog.bywind.xyz/
+      avatar: https://cloud-image-host.oss-cn-beijing.aliyuncs.com/wo.jpg
+      descr: 爱意随风起，风止意难平
 
