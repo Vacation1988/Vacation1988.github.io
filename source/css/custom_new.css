@@ -22,6 +22,13 @@ div#post{
        display: none;
     }
 } */
+
+/*首页文章卡片圆角*/
+#recent-posts > .recent-post-item:not(:first-child) {
+  border-radius: 22px;
+  background: transparent;
+  backdrop-filter: blur(20px);
+}
 /*首页卡片适配*/
 @media screen and (min-width: 1100px) {
     #recent-posts{
@@ -64,12 +71,13 @@ div#post{
     }
   
     .recent-post-info {
-  
+      color: rgb(247, 247, 247);
       padding: 0 30px;/*容器内部文字左右间距*/
       margin-top: 1em;/*容器内部文字上间距*/
       width: 100%!important;/*容器宽度*/
     }
     #recent-posts > .recent-post-item > .recent-post-info > .article-title {
+        color: white;
         -webkit-line-clamp: 1;/*控制标题的行数*/
         margin-top: 0.3rem; /*控制标题的上间距*/
         margin-bottom: 0.3rem;/*控制标题的下间距*/
@@ -78,6 +86,7 @@ div#post{
    
     }
     #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
+        color: white;
         margin-bottom: 1rem;/*控制标题meta信息的底部间距*/
     }
 }
@@ -496,10 +505,7 @@ button:not(:disabled) {
 
 
 
-/*首页文章卡片圆角*/
-#recent-posts > .recent-post-item:not(:first-child) {
-  border-radius: 22px;
-}
+
 /*页脚*/
 div#footer_deal {
   justify-content: center;
