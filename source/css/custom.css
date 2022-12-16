@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box; 
+}
 /* 顶部加载渐变条*/
 .pace {
   -webkit-pointer-events: none;

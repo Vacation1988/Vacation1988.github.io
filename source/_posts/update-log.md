@@ -6,6 +6,7 @@ hide: true
 comments: false
 abbrlink: 4bf8
 businesscard: false
+cover: https://pic.imgdb.cn/item/639c3873b1fccdcd3654431f.jpg
 copyright_url: https://www.welucky.top/posts/4bf8/ # 原文链接覆写
 date: 2022-11-15 16:13:07
 ---

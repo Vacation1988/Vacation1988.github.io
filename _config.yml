@@ -31,11 +31,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render: 
     - new-html333/*.html
-    - music_demo/*
-    - iphone14Pro/*
-    - ip14/*
-    - album_set/*
-    - photo/*
 
 # Writing
 new_post_name: :title.md # File name of new posts

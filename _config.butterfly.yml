@@ -1034,7 +1034,6 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
     # 自定义css themes\butterfly\source\css\custom.css
     - <link rel="stylesheet" href="/css/custom.css">
-    - <link rel="stylesheet" href="/css/music_custom.css">
     - <link rel="stylesheet" href="/css/custom_new.css">
     #- <link rel="stylesheet" href="/css/my_custom.css">
     # 页面底部 footer 跳动的心
@@ -1048,7 +1047,7 @@ inject:
     - <link rel="bookmark" href="/apple-touch-icon.png">
     - <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-touch-icon.png" >
     # 自动获取网站图标
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/tag-link/tag-link.css">
+    - <link rel="stylesheet" href="/css/tag-link.css">
     # Font Awesome 图标
     - <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
     # 即可短文css
@@ -1063,7 +1062,8 @@ inject:
     # 相册集
     - <link rel="stylesheet" href="/css/album_page/album.css">
     # fps
-    - - <link rel="stylesheet" href="/css/fps.css">
+    - <link rel="stylesheet" href="/css/fps.css">
+    
     
 
   bottom:
@@ -1107,7 +1107,7 @@ inject:
     - <script charset="utf-8" data-pjax="" src="/js/fuzhi.js"></script>
     # fps
     - <div id="fps"></div>
-    - <script src="/js/fps.js"></script>
+    
     
 
 

@@ -6,11 +6,9 @@
 }
 #page h1.page-title {
     margin: 8px 0 20px;
-    display: none;
+    
 }
-#page:has(#music-page) h1.page-title {
-    display: none;
-}
+
 
 .page:has(#music-page) #footer-wrap {
     opacity: 1;

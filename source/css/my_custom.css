@@ -220,3 +220,97 @@ root {
 }
 
 
+/* 标签列表页 */
+
+#post .tag_share .post-meta__tag-list {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  #post .tag_share .post-meta__tag-list {
+    display: flex;
+    overflow: scroll;
+    position: absolute;
+    left: 0;
+    padding: 0 20px 0 20px;
+    width: 100%;
+  }
+}
+
+#page .tag-cloud-list a {
+  color: var(--heo-fontcolor) !important;
+  font-size: 1.4em !important;
+  padding: 0.2em .5em;
+  background: var(--heo-secondbg);
+  margin: .5em .5em;
+  border-radius: 12px;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  border: var(--style-border-always);
+  box-shadow: var(--heo-shadow-border);
+}
+
+#page .tag-cloud-list a:hover {
+  background: var(--heo-blue) !important;
+  box-shadow: var(--heo-shadow-blue);
+  color: var(--heo-white) !important;
+  border: var(--style-border-hover);
+}
+
+span.tagsPageCount {
+  background: var(--heo-card-bg);
+  padding: 4px 4px;
+  border-radius: 8px;
+  color: var(--heo-secondtext);
+  line-height: 1;
+  text-align: center;
+  min-width: 35px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+#page .tag-cloud-list a:hover span.tagsPageCount {
+  color: var(--heo-lighttext);
+}
+
+#tag-page-tags .tagsPageCount,
+#post .tag_share .post-meta__tags span.tagsPageCount {
+  padding: 2px 4px;
+  background: var(--heo-secondbg);
+  border: var(--style-border-always);
+  min-width: 22.5px;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.6rem;
+  color: var(--heo-fontcolor);
+  margin-left: 4px;
+}
+
+#tag #tag-page-tags a:hover .tagsPageCount,
+#post .tag_share .post-meta__tags:hover span.tagsPageCount {
+  background: var(--heo-card-bg);
+  color: var(--heo-lighttext);
+}
+
+#tag #tag-page-tags a.select .tagsPageCount {
+  background: var(--heo-card-bg);
+  color: var(--heo-lighttext);
+}
+
+span.tags-punctuation {
+  opacity: 0.4;
+}
+
+/* page标题 */
+#article-container h1 {
+  padding-left: 0rem;
+}
+
+#article-container h1:before {
+  display: none;
+}
+
+#article-container h1:hover {
+  padding-left: 0rem;
+}

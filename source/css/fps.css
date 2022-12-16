@@ -1,8 +1,10 @@
 #fps{
     position: fixed;
-    right:10px;
+    left:10px;
+    transform:translateY(-200%);
     bottom:4px;
     z-index: 1919810;
+    background: transparent;
 }
 
 [data-theme="light"] #fps{
