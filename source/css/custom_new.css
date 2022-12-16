@@ -109,6 +109,8 @@ div#post{
 /* #web_bg ~ .page:has(#tag) {
   background: #f7f9fe;
 } */
+/* #web_bg ~ .page:has(#album-page) {
+} */
 .page #page:not(.home #page),.page #archive{
   border-radius: 20px;
   border: none!important;

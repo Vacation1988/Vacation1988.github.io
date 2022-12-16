@@ -7,7 +7,7 @@
 #       descr: 欢迎光临糖果屋
 #       siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
       # siteshot就是站点缩略图的链接。
-- class_name: 友情链接
+- class_name: 大佬们
   class_desc: 该页面还未改造
   link_list:
     - name: 张洪Heo
@@ -22,6 +22,7 @@
       link: https://anzhiy.cn/
       avatar: https://image.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
+- class_name: 朋友们
     - name: Classmate_Zhang
       link: https://262259.xyz/
       avatar: https://s3.bmp.ovh/imgs/2022/07/27/fc28cbf90fcd17d9.png
@@ -69,4 +70,10 @@
       link: https://blog.bywind.xyz/
       avatar: https://cloud-image-host.oss-cn-beijing.aliyuncs.com/wo.jpg
       descr: 爱意随风起，风止意难平
+    - name: Rootlex
+      link: https://blog.nalex.top
+      avatar: https://bu.dusays.com/2022/10/21/63527e104561f.png
+      descr: 寒蝉黎明之时，便是重生之日 |
+      siteshot: https://cdn1.tianli0.top/gh/rootlexblog/ScreenShot@gh-pages/rootlexblog.github.io.jpg
+    
 

@@ -48,9 +48,9 @@ algolia_search:
   hits:
     per_page: 6
 
-# Local search
+# Local searchtrue
 local_search:
-  enable: false
+  enable: true
   preload: false
   CDN:
 

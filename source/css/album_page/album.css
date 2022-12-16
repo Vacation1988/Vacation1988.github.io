@@ -19,7 +19,12 @@
 }
 
 #web_bg~.page:has(#album_page) {
-    background: #f7f9fe;
+    background: linear-gradient(90deg, #f5c23f,#c4c03c,#a3c3c3);
+    background-size: 400%;
+    box-shadow: var(--heo-shadow-black);
+    animation: gradient 15s ease infinite;
+    position: relative;
+    color: white;
 }
 
 /* 顶部样式 */
