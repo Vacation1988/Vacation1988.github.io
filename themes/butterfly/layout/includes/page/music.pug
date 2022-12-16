@@ -1,0 +1,50 @@
+#music-pug
+    .music-player
+      //  audio标签 
+      audio.music-player__audio
+      //  播放器主体 
+      .music-player__main
+        //  模糊背景 
+        .music-player__blur
+        //  唱片 
+        .music-player__disc
+          //  唱片图片 
+          .music-player__image
+            img(width='100%', src, alt)
+          //  指针 
+          .music-player__pointer
+            img(width='100%', src='/img/cd_tou.png', alt)
+        //  控件主体 
+        .music-player__controls
+          //  歌曲信息 
+          .music__info
+            h3.music__info--title ...
+          //  控件... 
+          .player-control
+            .player-control__content
+              .player-control__btns
+                .player-control__btn.player-control__btn--prev
+                  i.fas.fa-step-backward
+                .player-control__btn.player-control__btn--play
+                  i.fas.fa-play-circle
+                .player-control__btn.player-control__btn--next
+                  i.fas.fa-step-forward
+                .player-control__btn.player-control__btn--mode
+                  i.fas.fa-random
+              .player-control__volume
+                .control__volume--icon.player-control__btn
+                  i.fas.fa-volume-up
+                .control__volume--progress.progress
+            .player-control__content
+              .player__song--progress.progress
+              .player__song--timeProgess.nowTime 00:00
+              .player__song--timeProgess.totalTime 00:00
+      //  歌曲列表 
+      .music-player__list
+        ul.music__list_content.
+          
+          
+    script(src='/js/utill.js')
+    script(src='https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.slim.min.js')
+    script(src='/js/player.js?10')
+    div(style='text-align:center;margin:-100px 0; font:normal 14px/24px \'MicroSoft YaHei\';color:#ffffff')

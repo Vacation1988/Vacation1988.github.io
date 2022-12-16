@@ -7,6 +7,8 @@ block content
       h1.page-title= page.title
 
     case page.type
+      when 'music'
+        include includes/page/music.pug
       when 'album'
         include includes/page/album.pug 
       when 'essay'

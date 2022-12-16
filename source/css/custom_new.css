@@ -96,18 +96,24 @@ div#post{
   display: none;
 }
 
-/*背景透明*/
-.page #page:not(.home #page),.page #tag,.page #archive,.page #category{
+/*背景透明 也可以指定页面背景透明或者其他颜色*/
+/* #web_bg ~ .page:has(#tag) {
+  background: #f7f9fe;
+} */
+.page #page:not(.home #page),.page #archive{
   border-radius: 20px;
   border: none!important;
   box-shadow: none!important;
   padding-top: 0;
+  background: transparent!important;
+  backdrop-filter: blur(10px);
 }
-/*部分页面不展示侧边栏且全屏*/
 #archive,#category,#tag{
   width:100%;
-  
+  background: transparent !important;
 }
+/*部分页面不展示侧边栏且全屏*/
+
 .page:not(.page.home) .aside-content{
   display: none;
 }
@@ -271,10 +277,10 @@ div#post{
 
 /*归档页*/
 
-#archive,#tag,#category {
+/* #archive,#tag,#category {
   background: #f0f0f0;
   padding: 25px 10px;
-}
+} */
 
 .article-sort-title{
   margin-top:30px;
@@ -449,10 +455,10 @@ div#post{
 }
 
 /*标签，分类，归档页去除标题*/
-#page-header.not-home-page {
+/* #page-header.not-home-page {
   height: 50px;
-  /* padding: 50px; */
-}
+  
+} */
 div#page-site-info {
   display: none;
 }
@@ -479,13 +485,17 @@ a,
 button:not(:disabled) {
   cursor: url("/img/x2.cur"), auto !important;
 }*/
-/* 这里是让指定单页的背景都透明 */
+
 /* .transparentpage{
     background:transparent!important;
 }
 #web_bg ~ .page:has(#tag) {
   background: #f7f9fe;
 } */
+
+
+
+
 /*首页文章卡片圆角*/
 #recent-posts > .recent-post-item:not(:first-child) {
   border-radius: 22px;
@@ -1017,5 +1027,20 @@ li.tree-list-item {
   /* margin-left: 20px; */
   transform: scaleX(0.97);
 }
+
+/*文章标签与详情*/
+#post-info .post-title {
+  font-size: 3em;
+}
+#post-info #post-meta {
+  font-size: 110%;
+}
+
+/*其他自定义page导航栏显示文字白色*/
+#page-header.not-top-img #nav a {
+  color: #fff9f7;
+  text-shadow: none;
+}
+
 
 

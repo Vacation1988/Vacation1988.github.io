@@ -33,7 +33,7 @@
   }
   
   #web_bg ~ .page:has(#about-page) {
-    background: #f7f9fe;
+    background: #41878d !important;
   }
   
   #about-page .author-box {

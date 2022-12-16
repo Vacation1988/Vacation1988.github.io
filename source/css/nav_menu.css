@@ -190,11 +190,18 @@ ul.menus_item_child {
   }
 }
 
+/*导航栏滑动后保存显示字体白色*/
+#page-header.nav-fixed #nav a, #page-header.nav-fixed #nav #site-name, #page-header.nav-fixed #nav #toggle-menu {
+  color: #fcfcfc;
+  text-shadow: none;
+}
+
 .nav-fixed #nav {
   transform: translateY(58px) !important;
 }
 
 #nav {
+  background: transparent!important;
   padding: 0 calc((100% - 1420px) / 2);
   backdrop-filter: saturate(50%) blur(5px);
   
@@ -202,7 +209,7 @@ ul.menus_item_child {
 
 #nav a {
   border-radius: 8px;
-  color: #363636;
+  color: #ffffff;
   /*var(--font-color);*/
 }
 
@@ -459,7 +466,9 @@ center#name-container {
   align-items: center;
   /* z-index: 102; */
   transition: 0.3s;
+  color: white;
 }
+
 
 .back-home-button .back-menu-list .back-menu-item .back-menu-item-icon {
   width: 24px;
