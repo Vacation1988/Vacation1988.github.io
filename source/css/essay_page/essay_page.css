@@ -9,15 +9,17 @@
   border: 0;
   box-shadow: none !important;
   padding: 0 !important;
-  background: transparent !important;
-  /*****/
+  backdrop-filter: blur(0px) !important;
+  
+
 }
 #page:has(#essay_page) .page-title {
   display: none;
 }
-#web_bg ~ .page:has(#essay_page) {
-  background: #f7f9fe;
-}
+/* #web_bg ~ .page:has(#essay_page) {
+  background: url(https://pic.imgdb.cn/item/63733fc416f2c2beb12b211a.jpg);
+  
+} */
 #bber .bber-container-img {
   display: flex;
   align-items: center;

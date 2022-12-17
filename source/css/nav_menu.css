@@ -1,5 +1,6 @@
+
 #nav a:hover {
-  background: #3b70fc;
+  background: #fc823b;
   transition: 0.3s;
   
 }
@@ -13,7 +14,7 @@
 #nav-totop #percent {
   font-size: 12px;
   background: #fff;
-  color: #3b70fc;
+  color: #fc823b;
   width: 25px;
   height: 25px;
   border-radius: 35px;
@@ -96,14 +97,15 @@ div#menus {
 #nav .menus_items .menus_item .menus_item_child li a {
   padding: 2px 16px;
 }
-
+/*字体选中颜色*/
 #nav .menus_items .menus_item .menus_item_child li:hover a {
   color: white !important;
+  
 }
 
 #nav .menus_items .menus_item .menus_item_child li {
-  margin: 6px;
-  border-radius: 5px;
+  margin: 8px;
+  border-radius: 20px;
   transition: all 0.3s;
   display: inline-block;
   margin: 0 3px;
@@ -145,9 +147,9 @@ div#menus {
 
 /* 圆角隐藏 */
 ul.menus_item_child {
-  border-radius: 5px;
+  border-radius: 20px;
 }
-
+/*子菜单*/
 /* 一级菜单居中 */
 #nav .menus_items {
   position: absolute;
@@ -160,32 +162,42 @@ ul.menus_item_child {
   align-items: center;
   height: 60px;
 }
-
+/*子菜单条*/
+#nav .menus_items .menus_item .a.site-page.child.faa-parent :hover{
+  border-radius: 22px;
+  background: #e58e8e;
+}
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: block;
   transform: translateX(-50%);
   right: auto;
   left: auto !important;
-  padding: 6px 4px;
+  padding: 6px 8px;
   box-sizing: content-box;
   line-height: 35px;
+  transform:scale(1.1);
+  
+  
 }
-
+/*横向菜单*/
 #nav .menus_items .menus_item:hover {
-  padding: 0 5px 27px 5px !important;
+  padding: 0 5px 27px 8px !important;
   margin-bottom: -14.5px !important;
+  
 }
 
 #nav .menus_items .menus_item .menus_item_child {
   top: 44px;
+  border-radius: 25px;
 }
 
 @media screen and (min-width: 768px) {
   .page .menus_item:hover>a.site-page {
     color: #fff !important;
-    background: #3b70fc;
+    background: #fc823b;
     transition: 0.3s;
     box-shadow: 0 8px 12px -3px #4259ef23;
+    
     /*var(--anzhiyu-shadow-main)*/
   }
 }
@@ -208,16 +220,18 @@ ul.menus_item_child {
 }
 
 #nav a {
-  border-radius: 8px;
+  border-radius: 20px;
   color: #ffffff;
   /*var(--font-color);*/
 }
 
 .page #nav a:hover {
   color: #fff !important;
-  background: #3b70fc;
+  background: #fc823b;
+  border-radius: 22px;
   transition: 0.3s;
-  box-shadow: 0 8px 12px -3px #4259ef23;
+  box-shadow: 0 8px 12px -3px #00010723;
+  
 }
 
 #menus>div.menus_items>div>a {
@@ -251,19 +265,19 @@ ul.menus_item_child {
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 8px;
+  border-radius: 20px;
   color: white !important;
   top: 0;
   left: 0;
   content: "回到顶部";
-  background-color: #3b70fc;
+  background-color: #fc823b;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   opacity: 0;
-  box-shadow: 0 0 3px #3b70fc;
+  box-shadow: 0 0 3px #fc823b;
   line-height: 45px;
   /*如果垂直位置不居中可以微调此值，也可以删了*/
 }
@@ -306,6 +320,7 @@ center#name-container {
   bottom: -0px;
   transition: 0.3s;
   line-height: 60px;
+  font-size: 1.2em;
 }
 
 .nav-fixed #menus .menus_items {
@@ -346,7 +361,7 @@ center#name-container {
 
 #sidebar #sidebar-menus .menus_items .site-page:hover {
   color: #fff;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 #nav .menus_items .menus_item>a>i:last-child {
@@ -356,6 +371,9 @@ center#name-container {
 #nav #search-button {
   font-size: 1.3em;
 }
+#nav #search-button :hover{
+  border-radius: 20px;
+}
 
 @media screen and (min-width: 900px) {
   #nav .back-home-button:hover {
@@ -364,7 +382,7 @@ center#name-container {
 }
 
 .back-home-button:hover {
-  background: #3b70fc;
+  background: #fc823b;
   color: #fff !important;
 }
 
@@ -377,7 +395,8 @@ center#name-container {
   justify-content: center;
   margin-right: 4px;
   transition: 0.3s;
-  border-radius: 8px;
+  border-radius: 20px;
+  color: #e58e8e;
 }
 
 .back-home-button:hover .back-menu-list-groups {
@@ -387,16 +406,16 @@ center#name-container {
   top: 55px;
   pointer-events: auto;
   left: 0;
+  
 }
-
+/*左上角组件*/
 .back-home-button .back-menu-list-groups {
   position: absolute;
   top: 65px;
   left: 0;
   background: #fff;
-  /*var(--anzhiyu-card-bg)*/
-  border-radius: 12px;
-  border: 1px solid #e3e8f7
+  border-radius: 20px;
+  border: 3px solid #e3e8f7
     /*var(--style-border)*/
   ;
   flex-direction: column;
@@ -435,11 +454,11 @@ center#name-container {
 }
 
 .back-home-button .back-menu-list-group:hover .back-menu-list-title {
-  color: #3b70fc;
+  color: #fc823b;
 }
 
 .back-home-button .back-menu-list-groups:hover {
-  border: 1px solid #3b70fc;
+  border: 1px solid #fc823b;
   /*var(--style-border-hover)*/
 }
 
@@ -449,7 +468,7 @@ center#name-container {
   margin: 4px 8px;
   padding: 4px 8px !important;
   transition: 0.3s;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .back-home-button .back-menu-list .back-menu-item .back-menu-item-text {
@@ -530,5 +549,79 @@ center#name-container {
 }
 
 #search-button a.site-page.social-icon.search span {
+  display: none;
+}
+
+
+
+
+/*heo css*/
+/**
+#menus>div.menus_items>div>a {
+  letter-spacing: 0.3rem;
+  padding-left: 0.7rem;
+  font-weight: bold;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 40px;
+}
+
+#nav .menus_items .menus_item .menus_item_child li a {
+  letter-spacing: 0rem;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  padding: 0.3rem 1rem;
+  width: 100%;
+  color: #363636 !important;
+  text-shadow: none !important;
+}
+
+#page-header.nav-fixed #nav #menus[style*="padding-right: 300px;"] .menus_items {
+  transform: translateX(-150px);
+}
+/* 导航栏图标阴影 */
+/**
+#nav .site-page {
+  text-shadow: 0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0);
+  border-radius: 8px;
+}
+
+#nav .site-page {
+  color: white;
+}
+
+.nav-fixed #nav .site-page {
+  color: #363636;
+}
+
+.post-bg #nav #site-name {
+  color:white;
+  transition: 0s;
+}
+
+#nav #site-name {
+  border-radius: 40px;
+}
+/* 手机端菜单背景 */
+/**
+#mobile-sidebar #mobile-sidebar-menus.open {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+#aside-content .card-info .card-info-data>.card-info-data-item {
+  transition: .3s;
+}
+
+/* 手机端导航 */
+/**
+#sidebar #sidebar-menus .site-data {
+  margin: 1rem 0;
+  padding: 0.6rem 0.5rem;
+}
+
+#sidebar-menus>hr {
   display: none;
 }

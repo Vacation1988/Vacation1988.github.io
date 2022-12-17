@@ -1,0 +1,92 @@
+/* 搜索输入框 */
+#algolia-search .search-dialog .ais-search-box input {
+    border-radius: 8px !important;
+    border: var(--style-border);
+  }
+  
+  #algolia-search .search-dialog .ais-search-box input:focus {
+    border: var(--style-border-hover);
+  }
+  
+  
+  #algolia-search .search-dialog .ais-search-box input::placeholder {
+    opacity: 0.6;
+  }
+  
+  #algolia-input-panel {
+    margin-bottom: 8px;
+  }
+  
+  /* 搜索窗口 */
+  .search-dialog {
+    border-radius: 12px !important;
+    box-shadow: var(--heo-shadow-lightblack);
+    background: var(--heo-card-bg);
+    border: var(--style-border);
+    transition: 0.3s;
+  }
+  
+  .search-dialog:hover {
+    border: var(--style-border-hover);
+    box-shadow: var(--heo-shadow-theme);
+  }
+  
+  .search-dialog__title {
+    font-weight: bold;
+    color: var(--heo-main);
+  }
+  
+  #algolia-search .search-dialog .ais-hits--item.algolia-hit-item a:hover {
+    color: var(--heo-hovertext);
+  }
+  
+  #algolia-search .search-dialog .algolia-logo {
+    display: none;
+  }
+  
+  /* 搜索提示文字 */
+  #algolia-tips {
+    padding-top: 12px;
+    color: var(--heo-secondtext);
+    right: 0;
+    margin: auto;
+  }
+  
+  .algolia-tips-text {
+    margin-left: 0.4rem;
+  }
+  
+  /* 搜索结果间距 */
+  #algolia-search-results {
+    padding-top: 8px;
+  }
+  
+  #algolia-search .search-dialog .ais-hits--item.algolia-hit-item:before {
+    display: none;
+  }
+  
+  #algolia-search .search-dialog .ais-hits--item.algolia-hit-item {
+    padding-left: 0rem;
+    font-weight: bold;
+  }
+  
+  #algolia-search .search-dialog .ais-pagination.pagination {
+    margin: 0.2rem 0 0;
+  }
+  
+  #algolia-search .search-dialog .ais-hits--item.algolia-hit-item em {
+    color: var(--heo-theme);
+    font-style: normal;
+  }
+  
+  /* 搜索框间距 */
+  #algolia-search .search-dialog .ais-search-box {
+    padding-top: 8px;
+  }
+  
+  /* 搜索页码样式 */
+  #algolia-search .search-dialog .ais-pagination.pagination .ais-pagination--item.current a {
+    border-radius: 4px;
+    background: var(--heo-main);
+    color: var(--heo-white);
+  }
