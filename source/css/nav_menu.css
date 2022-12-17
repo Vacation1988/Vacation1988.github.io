@@ -150,6 +150,7 @@ ul.menus_item_child {
   border-radius: 20px;
 }
 /*子菜单*/
+
 /* 一级菜单居中 */
 #nav .menus_items {
   position: absolute;
@@ -188,7 +189,7 @@ ul.menus_item_child {
 
 #nav .menus_items .menus_item .menus_item_child {
   top: 44px;
-  border-radius: 25px;
+  border-radius: 30px;
 }
 
 @media screen and (min-width: 768px) {
