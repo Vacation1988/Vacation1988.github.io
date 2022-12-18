@@ -8,7 +8,7 @@
 #       siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
       # siteshot就是站点缩略图的链接。
 - class_name: 大佬们
-  class_desc: 该页面还未改造
+  flink_style: flexcard
   link_list:
     - name: 张洪Heo
       link: https://blog.zhheo.com/
@@ -28,8 +28,13 @@
       descr: 愿永不忘初心！
 
 - class_name: 朋友们
-  class_desc: 该页面还未改造
+  flink_style: butterfly
   link_list:
+    - name: Sam の Blog
+      link: https://www.welucky.top/
+      avatar: https://pic1.imgdb.cn/item/635ceb7f16f2c2beb1e20c46.jpg
+      descr: 念念不忘，必有回响。
+      siteshot: https://pic.imgdb.cn/item/637773a616f2c2beb1011025.jpg
     - name: Classmate_Zhang
       link: https://262259.xyz/
       avatar: https://s3.bmp.ovh/imgs/2022/07/27/fc28cbf90fcd17d9.png
@@ -40,14 +45,9 @@
       avatar: https://www.fomal.cc/assets/head.jpg
       descr: Future is now 🍭🍭🍭
       siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
-    - name: Sam の Blog
-      link: https://www.welucky.top/
-      avatar: https://pic1.imgdb.cn/item/635ceb7f16f2c2beb1e20c46.jpg
-      descr: 念念不忘，必有回响。
-      siteshot: https://pic.imgdb.cn/item/637773a616f2c2beb1011025.jpg
     - name: 海拥
       link: https://haiyong.site
-      avatar: https://haiyong.site
+      avatar: https://haiyong.site/img/favicon.png
       descr: 一个乐于分享技术与快乐的博主
       siteshot: 
     - name: wallleap
@@ -61,18 +61,13 @@
       descr: 总之岁月漫长, 然而值得等待。
     - name: Haog's log 
       link: https://2768085634.github.io/
-      avatar: 
+      avatar: https://2768085634.github.io/img/avatar.jpg
       descr: To err is human, to forgive, divine.
     - name: 呆鱼
       link: https://daiyu-233.top/
       avatar: https://daiyu-233.top/img/avatar.png
       descr: 命运之所以称为命运，正是因为它无可改变。
       screenshot: https://daiyu-233.top/img/Snipaste_2022-12-03_11-40-48.png
-    - name: SamのBlog
-      link: https://www.welucky.top/
-      avatar: https://pic1.imgdb.cn/item/635ceb7f16f2c2beb1e20c46.jpg
-      descr: 念念不忘，必有回响。
-      screenshot: https://pic.imgdb.cn/item/637773a616f2c2beb1011025.jpg
     - name: 随风起
       link: https://blog.bywind.xyz/
       avatar: https://cloud-image-host.oss-cn-beijing.aliyuncs.com/wo.jpg
