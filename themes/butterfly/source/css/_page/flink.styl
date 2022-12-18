@@ -3,7 +3,7 @@
 
 .butterfly-flink-list
   overflow: auto
-  padding: 10px 10px 0
+  padding: 10px 20px 0
   text-align: center
 
   & > .flink-list-item
@@ -17,8 +17,8 @@
     width: calc(100% / 5 - 0.5rem)
     margin: 0.5rem 0.25rem;
     border-radius: 12px;
-    border: var(--style-border);
-    background-color: var(--anzhiyu-card-bg);
+    border: 1px solid #c0c6d8;
+    background-color: #fff;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -32,16 +32,16 @@
       width: calc(100% - 15px) !important
 
     &:hover
-      border-color: var(--anzhiyu-main)!important;
-      background-color: var(--anzhiyu-main)!important;
-      box-shadow: var(--anzhiyu-shadow-theme)!important;
+      border-color: #fc823b!important;
+      background-color: #fc823b!important;
+      box-shadow: 0 8px 12px -3px #4259ef23!important;
 
       .flink-item-icon
         width: 0;
         height: 0;
         margin-left: -10px;
       .flink-item-name,.flink-item-desc
-        color: var(--anzhiyu-white);
+        color: white;
 
     &:hover:before,
     &:focus:before,
@@ -49,8 +49,8 @@
       transform: scale(1)
 
     a
-      color: var(--font-color)
-      text-decoration: none
+      color: #363636
+      text-decoration: none!important;
 
       .flink-item-icon
         float: left
@@ -61,7 +61,7 @@
         border-radius: 35px
         transition: all .3s ease-out
         margin: 8px 0 8px 0;
-        background: var(--anzhiyu-background);
+        background: #f7f9fe;
         border-radius: 50%;
         overflow: hidden;
 
@@ -86,7 +86,7 @@
     height: auto;
     font-weight: bold
     font-size: 1.2em
-    color: var(--anzhiyu-fontcolor);
+    color: #363636;
 
   .flink-item-desc
     @extend .limit-one-line
@@ -94,7 +94,7 @@
     height: 35px
     font-size: .93em
     opacity: .7;
-    color: var(--anzhiyu-fontcolor);
+    color: #363636;
     word-break: break-all;
     white-space: break-spaces;
     display: -webkit-box;
@@ -113,13 +113,14 @@
   max-height: 900px;
 .flexcard-flink-list
   overflow hidden
+  padding: 10px 20px 0
   .flink-list-card
     .wrapper img
       transition: transform .5s ease-out !important;
     &:hover
-      border-color: var(--anzhiyu-main)!important;
-      background-color: var(--anzhiyu-main)!important;
-      box-shadow: var(--anzhiyu-shadow-theme)!important;
+      border-color: #fc823b!important;
+      background-color: #fc823b!important;
+      box-shadow: 0 8px 12px -3px #4259ef23!important;
 
   & > a
     width: calc(100% / 5 - 0.5rem);
@@ -130,10 +131,10 @@
     float left
     overflow hidden
     padding: 0;
-    border-radius: 8px;
+    border-radius: 18px;
     transition all .3s ease 0s, transform .6s cubic-bezier(.6, .2, .1, 1) 0s
     box-shadow none
-    border: var(--style-border)!important;
+    border: 2px solid #c0c6d8!important;
     &:hover
       .info
         transform translateY(-100%)
@@ -194,7 +195,7 @@
         text-align center
         box-shadow 0 0 10px rgba(0, 0, 0, .3)
         background-color hsla(0, 0%, 100%, .7)
-        color var(--font-color)
+        color #363636
         white-space nowrap
         overflow hidden
         text-overflow ellipsis

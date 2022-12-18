@@ -226,3 +226,9 @@
     background: rgba(18, 18, 18, 1) !important;
 }
 
+#article-container .flink{
+    width:1330px;
+    margin: 0 auto;
+    margin:20px;
+
+}
