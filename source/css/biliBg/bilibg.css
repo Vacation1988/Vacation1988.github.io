@@ -1,0 +1,20 @@
+.post-bg:has(.bldbanner) #post-info:after,
+.post-bg:has(.bili-banner) #post-info:after,
+.post-bg:has(.blqbanner) #post-info:after {
+  box-shadow: 0px -214px 287px 45px var(--anzhiyu-black-op) inset;
+}
+.post-bg:has(.bldbanner) #post-info .post-meta,
+.post-bg:has(.bili-banner) #post-info .post-meta,
+.post-bg:has(.blqbanner) #post-info .post-meta {
+  pointer-events: all;
+}
+.post-bg:has(.bldbanner) #post-info,
+.post-bg:has(.bili-banner) #post-info,
+.post-bg:has(.blqbanner) #post-info {
+  pointer-events: none;
+}
+#page-header.post-bg:has(.bldbanner),
+#page-header.post-bg:has(.bili-banner),
+#page-header.post-bg:has(.blqbanner) {
+  height: 15rem;
+}

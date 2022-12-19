@@ -93,18 +93,18 @@ avatar:
 # Disable all banner image
 disable_top_img: false
 
-# The banner image of home page
-index_img:
+# The banner image of home page https://pic1.imgdb.cn/item/635cea4c16f2c2beb1df214e.jpg
+index_img: https://pic1.imgdb.cn/item/635cea4c16f2c2beb1df214e.jpg
 
-# If the banner of page not setting, it will show the top_img
-default_top_img:
+# If the banner of page not setting, it will show the top_img 
+default_top_img: https://pic.imgdb.cn/item/6373404716f2c2beb12bda04.jpg
 
 # The banner image of archive page
-archive_img:
+archive_img: 
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: 
 
 # The banner image of tag page
 # format:
@@ -1131,7 +1131,8 @@ inject:
     - <script charset="utf-8" data-pjax="" src="/js/fuzhi.js"></script>
     # fps
     - <div id="fps"></div>
-    
+    # biliBg
+    # - <script src="/js/biliBg/biliBg.js"></script>
     
 
 

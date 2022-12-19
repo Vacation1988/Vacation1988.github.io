@@ -5,8 +5,11 @@
     overflow: hidden;
     margin-top: 0px;
   }
+  #bili-banner{
+    opacity: 0;
+  }
   #web_bg ~ .page:has(.fcircle_page) {
-    background-color: #f7f9fe;
+    background-color: #58e2cb;
   }
   [data-theme="dark"] #web_bg ~ .page:has(.fcircle_page) {
     background-color: #000;

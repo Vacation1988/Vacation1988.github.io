@@ -33,6 +33,9 @@ header#page-header(class=isHomeClass style=bg_img)
   if top_img !== false
     if is_post()
       include ./post-info.pug
+        if page.bilibili_bg
+          !=partial('includes/bili-banner/index')
+        
     else if is_home() 
       #site-info
         h1#site-title=site_title

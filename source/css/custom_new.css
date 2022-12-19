@@ -118,6 +118,8 @@ div#post{
 } */
 /* #web_bg ~ .page:has(#album-page) {
 } */
+
+/**/
 .page #page:not(.home #page),.page #archive{
   border-radius: 20px;
   border: none!important;
@@ -130,8 +132,9 @@ div#post{
   width:100%;
   background: transparent !important;
 }
-/*部分页面不展示侧边栏且全屏*/
 
+
+/*部分页面不展示侧边栏且全屏*/
 .page:not(.page.home) .aside-content{
   display: none;
 }
@@ -1089,11 +1092,11 @@ li.tree-list-item {
 /* 分类页22222 */
 
 
-/*标签，分类，归档页去除标题*/
-/* #page-header.not-home-page {
-  height: 50px;
+/*顶图*/
+#page-header.not-home-page {
+  height: 400px;
   
-} */
+}
 
 /* 标签列表页 */
 #post .tag_share .post-meta__tag-list {
