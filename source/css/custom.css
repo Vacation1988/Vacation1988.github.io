@@ -1,3 +1,111 @@
+:root {
+  --text-bg-hover:transparent !important;
+
+}
+/* 颜色 */
+:root {
+  --sam-theme-op: #4259ef23;
+  --sam-card-bg-none: rgba(255, 255, 255, 0);
+  --sam-main-op-deep: var(--sam-theme-op-deep) !important;
+  --sam-gray-op: #9999992b;
+  --sam-theme-top: var(--sam-theme);
+  --sam-white: #fff;
+  --sam-white-op: rgba(255, 255, 255, 0.2);
+  --sam-black: #000;
+  --sam-black-op: rgba(0, 0, 0, 0.2);
+  --sam-none: rgba(0, 0, 0, 0);
+  --sam-gray: #999999;
+  --sam-yellow: #ffc93e;
+  --sam-orange: #e38100;
+  --sam-border-radius: 8px;
+  --sam-main: var(--sam-theme);
+  --sam-main-op: var(--sam-theme-op);
+  --sam-shadow-theme: 0 8px 12px -3px var(--sam-theme-op);
+  --sam-shadow-main: 0 8px 12px -3px var(--sam-main-op);
+  --sam-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+  --sam-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+  --sam-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+  --sam-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+  --sam-shadow-red: 0 8px 12px -3px #ee7d7936;
+  --sam-shadow-green: 0 8px 12px -3px #87ee7936;
+  --sam-shadow-border: 0 8px 16px -4px #2c2d300c;
+  --sam-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, 0.15);
+  --sam-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+  --style-border: 1px solid var(--sam-card-border);
+  --sam-blue-main: #fc823b;
+  --style-border-hover: 1px solid var(--sam-main);
+  --style-border-dashed: 1px dashed var(--sam-theme-op);
+  --style-border-avatar: 4px solid var(--sam-background);
+  --style-border-always: 1px solid var(--sam-card-border);
+  --style-border-none: 1px solid transparent;
+  --sam-white-acrylic1: #fefeff !important;
+  --sam-white-acrylic2: #fcfdff !important;
+  --sam-black-acrylic2: #08080a !important;
+  --sam-black-acrylic1: #0b0b0e !important;
+  --sam-main-none: #b8b8b800 !important;
+}
+
+[data-theme="light"] {
+  --sam-theme-op-deep: #4259efdd;
+  --global-bg: #f7f9fe;
+  --sam-theme: #fc823b;
+  --sam-theme-deep: #1856fb;
+  --sam-theme-op: #4259ef23;
+  --sam-blue: #fc823b;
+  --sam-red: #d8213c;
+  --sam-pink: #ff7c7c;
+  --sam-green: #57bd6a;
+  --sam-fontcolor: #363636;
+  --sam-background: #f7f9fe;
+  --sam-reverse: #000;
+  --sam-maskbg: rgba(255, 255, 255, 0.6);
+  --sam-maskbgdeep: rgba(255, 255, 255, 0.85);
+  --sam-hovertext: var(--sam-theme);
+  --sam-ahoverbg: #f7f7fa;
+  --sam-lighttext: var(--sam-main);
+  --sam-secondtext: rgba(60, 60, 67, 0.6);
+  --sam-scrollbar: rgba(60, 60, 67, 0.4);
+  --sam-card-btn-bg: #edf0f7;
+  --sam-post-blockquote-bg: #fafcff;
+  --sam-post-tabs-bg: #f2f5f8;
+  --sam-secondbg: #f1f3f8;
+  --sam-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+  --sam-card-bg: #fff;
+  --sam-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --sam-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --sam-card-border: #e3e8f7;
+}
+
+[data-theme="dark"] {
+  --sam-theme-op-deep: #0084ffdd;
+  --global-bg: #18171d;
+  --sam-theme: #0084ff;
+  --sam-theme-deep: #0076e5;
+  --sam-theme-op: #0084ff23;
+  --sam-blue: #0084ff;
+  --sam-red: #ff3842;
+  --sam-pink: #ff7c7c;
+  --sam-green: #57bd6a;
+  --sam-fontcolor: #f7f7fa;
+  --sam-background: #18171d;
+  --sam-reverse: #fff;
+  --sam-maskbg: rgba(0, 0, 0, 0.6);
+  --sam-maskbgdeep: rgba(0, 0, 0, 0.85);
+  --sam-hovertext: #0a84ff;
+  --sam-ahoverbg: #fff;
+  --sam-lighttext: #f2b94b;
+  --sam-secondtext: #a1a2b8;
+  --sam-scrollbar: rgba(200, 200, 223, 0.4);
+  --sam-card-btn-bg: #30343f;
+  --sam-post-blockquote-bg: #000;
+  --sam-post-tabs-bg: #121212;
+  --sam-secondbg: #30343f;
+  --sam-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+  --sam-card-bg: #1d1b26;
+  --sam-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --sam-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --sam-card-border: #42444a;
+}
 * {
   box-sizing: border-box; 
 }
@@ -711,7 +819,7 @@ a.category_button:after {
   margin: 5px;
 }
 .card-tag-cloud a:hover {
-  background: #3b70fc;
+  background: #fc823b;
   color: #fff !important;
   box-shadow: 0 8px 12px -3px #4259ef23;
 }
@@ -723,85 +831,7 @@ a.category_button:after {
     transform: scale(0.97);
   }
 }
-/* 归档样式 */
-span.card-archive-list-count {
-  width: auto;
-  text-align: left;
 
-  /*篇数*/
-  border: 1px solid;
-  border-radius: 6px;
-
-  font-size: 1.5rem;
-  line-height: 0.9;
-  font-weight: 700;
-}
-.card-archive-list-count-group {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-#aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:last-child{
-  width: fit-content;
-  margin-left: 4px;
-}
-span.card-archive-list-count {
-  width: auto;
-  text-align: left;
-  font-size: 1.1rem;
-  line-height: 0.9;
-  font-weight: 700;
-}
-.card-archive-list-date {
-  font-size: 14px;
-  opacity: 0.6;
-}
-li.card-archive-list-item {
-  width: 100%;
-  flex: 0 0 48%;
-
-  
-}
-#aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover,
-#aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover {
-  color: white;
-  background-color: #0084ff;
-  box-shadow: 0 8px 12px -3px #4259ef23;
-  border-radius: 8px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-@media screen and (min-width: 1300px) {
-  #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover,
-  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover{
-    transform: scale(1.03);
-  }
-  #aside-content .card-categories ul.card-category-list > .card-category-list-item a:active,
-  #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:active {
-    transform: scale(0.97);
-  }
-}
-#aside-content .card-categories ul.card-category-list > .card-category-list-item a,
-#aside-content .card-archives ul.card-archive-list > .card-archive-list-item a {
-  border-radius: 8px;
-  margin: 4px 0;
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  border: 1px solid #e3e8f7;
-}
-#aside-content .card-categories ul.card-category-list > .card-category-list-item a span:first-child,
-#aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span:first-child {
-  width: auto;
-  flex: inherit;
-}
-#aside-content .card-categories ul.card-category-list,
-#aside-content .card-archives ul.card-archive-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 
 
 /*切换博客背景css*/

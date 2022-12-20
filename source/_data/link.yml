@@ -26,7 +26,11 @@
       link: https://blog.asever.top
       avatar: https://bu.dusays.com/2022/10/29/635d11ccac58c.png
       descr: 愿永不忘初心！
-
+    - name: Harris's Blog
+      link: https://hassanwong.top
+      avatar: https://cdn.jsdelivr.net/npm/hassan-assets/img/avatar_blog.jpg
+      descr: 时不我待，只争朝夕
+      siteshot: https://cdn.jsdelivr.net/npm/hassan-assets/img/siteshot.jpg
 - class_name: 朋友们
   flink_style: butterfly
   link_list:

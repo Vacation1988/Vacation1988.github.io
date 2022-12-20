@@ -5,7 +5,7 @@
 
 
 menu:
-  主页: / || faa-tada
+  #主页: / || faa-tada
   文章:
     归档: /Archives/ || icon-guidang || faa-tada
     标签: /tags/ || icon-biaoqian || faa-tada
@@ -94,7 +94,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page https://pic1.imgdb.cn/item/635cea4c16f2c2beb1df214e.jpg
-index_img: https://pic1.imgdb.cn/item/635cea4c16f2c2beb1df214e.jpg
+index_img: https://pic.imgdb.cn/item/63a02e01b1fccdcd368206ac.jpg
 
 # If the banner of page not setting, it will show the top_img 
 default_top_img: https://pic.imgdb.cn/item/6373404716f2c2beb12bda04.jpg
@@ -522,8 +522,8 @@ tag_ui: # 留空或 index
 
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
-# The formal of image: url(http://xxxxxx.com/xxx.jpg) url(https://img1.imgtp.com/2022/09/10/1QQ1pxo6.png)
-background: url(https://pic1.imgdb.cn/item/635cea4c16f2c2beb1df214e.jpg)
+# The formal of image: url(http://xxxxxx.com/xxx.jpg) url(https://pic1.imgdb.cn/item/635cea4c16f2c2beb1df214e.jpg)
+background: url(https://pic.imgdb.cn/item/63a02e01b1fccdcd368206ac.jpg)
 
 # Footer Background
 footer_bg: false
@@ -683,7 +683,7 @@ aside:
     expand: none # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
-    enable: truetheme.aside.car
+    enable: false #truetheme.aside.car
     limit: 40 # if set 0 will show all
     color: true
     sort_order: # Don't modify the setting unless you know how it works

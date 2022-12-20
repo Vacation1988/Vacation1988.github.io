@@ -1,7 +1,7 @@
 .post-bg:has(.bldbanner) #post-info:after,
 .post-bg:has(.bili-banner) #post-info:after,
 .post-bg:has(.blqbanner) #post-info:after {
-  box-shadow: 0px -214px 287px 45px var(--anzhiyu-black-op) inset;
+  box-shadow: 0px -214px 287px 45px rgba(0, 0, 0, 0.2) inset;
 }
 .post-bg:has(.bldbanner) #post-info .post-meta,
 .post-bg:has(.bili-banner) #post-info .post-meta,
