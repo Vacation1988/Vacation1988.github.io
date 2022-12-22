@@ -1,10 +1,10 @@
 if !theme.disable_top_img && page.top_img !== false
-  //- if is_post()
-  //-   - var top_img = page.top_img || page.cover || page.randomcover
+  //-    魔改前- var top_img = page.top_img || page.cover || page.randomcover
   if is_post()
-    - var top_img = page.top_img || page.randomcover
+    - var top_img = page.top_img || page.cover
   else if is_page()
-    - var top_img = page.top_img || theme.default_top_img
+    //-  魔改前- var top_img = page.top_img || theme.default_top_img
+    - var top_img = page.top_img 
   else if is_tag()
     - var top_img = theme.tag_per_img && theme.tag_per_img[page.tag] 
     - top_img = top_img ? top_img : (theme.tag_img !== false ? theme.tag_img || theme.default_top_img : false)
@@ -30,13 +30,15 @@ else
   - var top_img = false
   - var isHomeClass = 'not-top-img'
 //- 魔改前代码 header#page-header(class=isHomeClass style=bg_img)
-header#page-header(class=`${isHomeClass}` style=bg_img)
+//- header#page-header(class=`${isHomeClass}` style=bg_img)
+header#page-header(class=isHomeClass style=bg_img)
   !=partial('includes/header/nav', {}, {cache: true})
   if top_img !== false
     if is_post()
-      include ./post-info.pug
-        if page.bilibili_bg
+      if page.bilibili_bg
           !=partial('includes/bili-banner/index')
+      include ./post-info.pug
+        
         
     else if is_home() 
       #site-info

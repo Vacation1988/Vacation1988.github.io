@@ -190,6 +190,7 @@ ul.menus_item_child {
 #nav .menus_items .menus_item .menus_item_child {
   top: 44px;
   border-radius: 30px;
+  font-size: 1.5rem
 }
 
 @media screen and (min-width: 768px) {
@@ -249,6 +250,7 @@ ul.menus_item_child {
   flex-direction: column;
   margin: auto;
   align-items: center;
+  font-size: 1.8rem;
 }
 
 #nav div#toggle-menu {
