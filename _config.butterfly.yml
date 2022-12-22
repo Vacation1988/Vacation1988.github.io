@@ -1111,7 +1111,8 @@ inject:
     # 阿里图标3
     - <script async src="//at.alicdn.com/t/c/font_3784435_9173i6bajkt.js"></script>
     # 随机跳转
-    - <script src="https://www.welucky.top/random.js"></script>
+    - <script src="/themes/butterfly/scripts/helpers/random.js"></script>
+    - <script src="http://localhost:4000/random.js"></script>
     # 自定义js
     - <script src="/js/coustom.js"></script>
     # 切换博客背景
