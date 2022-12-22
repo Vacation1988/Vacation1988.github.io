@@ -31,6 +31,11 @@
       avatar: https://cdn.jsdelivr.net/npm/hassan-assets/img/avatar_blog.jpg
       descr: 时不我待，只争朝夕
       siteshot: https://cdn.jsdelivr.net/npm/hassan-assets/img/siteshot.jpg
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: https://www.fomal.cc/assets/head.jpg
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
 - class_name: 朋友们
   flink_style: butterfly
   link_list:
@@ -44,11 +49,6 @@
       avatar: https://s3.bmp.ovh/imgs/2022/07/27/fc28cbf90fcd17d9.png
       descr: 以梦为马，不负韶华
       siteshot: https://s2.loli.net/2022/11/19/I1D6E9OyPWgvUx7.png
-    - name: Fomalhaut🥝
-      link: https://www.fomal.cc/
-      avatar: https://www.fomal.cc/assets/head.jpg
-      descr: Future is now 🍭🍭🍭
-      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
     - name: 海拥
       link: https://haiyong.site
       avatar: https://haiyong.site/img/favicon.png
@@ -81,5 +81,7 @@
       avatar: https://bu.dusays.com/2022/10/21/63527e104561f.png
       descr: 寒蝉黎明之时，便是重生之日 |
       siteshot: https://cdn1.tianli0.top/gh/rootlexblog/ScreenShot@gh-pages/rootlexblog.github.io.jpg
-    
-
+    - name: Xlenco
+      link: https://xlenco.eu.org
+      avatar: https://xlenco.eu.org/img/head.webp
+      descr: 最好的地方,是没去过的地方。最好的时光，是回不来的时光。

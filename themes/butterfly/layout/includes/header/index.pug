@@ -1,6 +1,8 @@
 if !theme.disable_top_img && page.top_img !== false
+  //- if is_post()
+  //-   - var top_img = page.top_img || page.cover || page.randomcover
   if is_post()
-    - var top_img = page.top_img || page.cover || page.randomcover
+    - var top_img = page.top_img || page.randomcover
   else if is_page()
     - var top_img = page.top_img || theme.default_top_img
   else if is_tag()
@@ -27,7 +29,7 @@ if !theme.disable_top_img && page.top_img !== false
 else
   - var top_img = false
   - var isHomeClass = 'not-top-img'
-
+//- 魔改前代码 header#page-header(class=isHomeClass style=bg_img)
 header#page-header(class=`${isHomeClass}` style=bg_img)
   !=partial('includes/header/nav', {}, {cache: true})
   if top_img !== false
