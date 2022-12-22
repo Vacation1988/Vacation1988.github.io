@@ -1506,3 +1506,20 @@ a {
 .post-bg:has(.bili-banner) #post-info, .post-bg:has(.bldbanner) #post-info, .post-bg:has(.blqbanner) #post-info {
   pointer-events: none;
 }
+
+/*文章顶图*/
+#page-header.post-bg {
+  height: 34rem;
+  transition: 0s;
+  background-color: transparent;
+  overflow: hidden;
+  background-color: white;
+}
+
+#page-header.post-bg {
+  height: 400px;
+}
+#page-header {
+  position: relative;
+  width: 100%;
+}

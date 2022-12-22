@@ -1,12 +1,11 @@
-
 hexo.extend.generator.register('random', function (locals) {
   const config = hexo.config.random || {}
   const posts = []
   for (const post of locals.posts.data) {
-    if (post.random !== false) posts.push(post.path)
+      if (post.random !== false) posts.push(post.path)
   }
   return {
-    path: config.path || '/random/index.html',
-    data: `<html><head><script>var posts=${JSON.stringify(posts)};window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self")</script></head></html>`
+      path: config.path || 'helpers/random.js',
+      data: `var posts=${JSON.stringify(posts)};function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};`
   }
 })

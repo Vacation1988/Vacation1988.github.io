@@ -7,7 +7,7 @@
 menu:
   #主页: / || faa-tada
   文章:
-    归档: /Archives/ || icon-guidang || faa-tada
+    归档: /archives/ || icon-guidang || faa-tada
     标签: /tags/ || icon-biaoqian || faa-tada
     分类: /categories/ || icon-fenlei || faa-tada
   社交:
@@ -94,7 +94,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page https://pic1.imgdb.cn/item/635cea4c16f2c2beb1df214e.jpg
-index_img: https://pic.imgdb.cn/item/63a02e01b1fccdcd368206ac.jpg
+index_img: https://pic1.imgdb.cn/item/635cea4c16f2c2beb1df214e.jpg
 
 # If the banner of page not setting, it will show the top_img 
 default_top_img: https://pic.imgdb.cn/item/6373404716f2c2beb12bda04.jpg
@@ -523,7 +523,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg) url(https://pic1.imgdb.cn/item/635cea4c16f2c2beb1df214e.jpg)
-background: url(https://pic.imgdb.cn/item/63a02e01b1fccdcd368206ac.jpg)
+background: url(https://pic.imgdb.cn/item/63a42869b1fccdcd36f825b6.jpg)
 
 # Footer Background
 footer_bg: false
@@ -1111,7 +1111,7 @@ inject:
     # 阿里图标3
     - <script async src="//at.alicdn.com/t/c/font_3784435_9173i6bajkt.js"></script>
     # 随机跳转
-    - <script src="/themes/butterfly/scripts/helpers/random.js"></script>
+    - <script src="https://www.welucky.top/random.js"></script>
     # 自定义js
     - <script src="/js/coustom.js"></script>
     # 切换博客背景
