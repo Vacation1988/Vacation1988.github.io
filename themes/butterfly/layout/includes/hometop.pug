@@ -30,7 +30,7 @@ if is_home()
                                                     img(src=evenNum[index].icon, onerror='this.onerror=null,this.src="/img/friend_404.gif"', title=evenNum[index].name, alt=evenNum[index].name)
                                                 .tags-group-icon(style=`background: ${oddNum[index].color}`)
                                                     img(src=oddNum[index].icon, onerror='this.onerror=null,this.src="/img/friend_404.gif"', title=oddNum[index].name, alt=oddNum[index].name)
-                        a#banner-hover(onclick=`window.open('https://welucky.top/random/','_self')`)
+                        a#banner-hover(onclick=`toRandomPost()`)
                             span.bannerText 随便逛逛
                             i.fas.fa-arrow-right.banner-righticon
                     .categoryGroup
@@ -56,3 +56,5 @@ if is_home()
                                         img.post_bg.entered.loaded(src=url_for(i.cover) onerror="this.onerror=null,this.src='/img/404.png'")
                                 .recent-post-info(onclick=`pjax.loadUrl("`+i.link+`")`)
                                     a.article-title(href=url_for(i.link), title=i.title)= i.title
+
+                                    

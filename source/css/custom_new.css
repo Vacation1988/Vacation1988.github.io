@@ -1530,7 +1530,7 @@ a {
 #home_top {
   max-width: 1400px;
   margin: auto;
-  margin-top: .5rem;
+  margin-top: 2.5rem;
   padding: 0 1.5rem;
   width: 100%
 }
@@ -2526,4 +2526,3 @@ a.categoryButton.shiyong {
 a.categoryButton:hover {
   background-position: 100% 0
 }
-

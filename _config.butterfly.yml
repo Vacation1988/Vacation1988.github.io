@@ -151,7 +151,7 @@ post_meta:
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
     tags: true # true or false 主頁是否顯示標籤
-    label: false # true or false 顯示描述性文字
+    label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
@@ -1057,6 +1057,7 @@ inject:
     # 自定义css themes\butterfly\source\css\custom.css
     - <link rel="stylesheet" href="/css/custom.css">
     - <link rel="stylesheet" href="/css/custom_new.css">
+    - <link rel="stylesheet" href="/css/post.css">
     #- <link rel="stylesheet" href="/css/my_custom.css">
     # 页面底部 footer 跳动的心
     - <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css">
@@ -1111,8 +1112,8 @@ inject:
     # 阿里图标3
     - <script async src="//at.alicdn.com/t/c/font_3784435_9173i6bajkt.js"></script>
     # 随机跳转
-    - <script src="/themes/butterfly/scripts/helpers/random.js"></script>
-    - <script src="http://localhost:4000/random.js"></script>
+    # - <script src="/welucky/random.js"></script>
+    # - <script src="http://localhost:4000/random.js"></script>
     # 自定义js
     - <script src="/js/coustom.js"></script>
     # 切换博客背景
@@ -1120,7 +1121,8 @@ inject:
     # swiper
     - <script data-pjax src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/js/swiper.min.js"></script>
     # 瀑布流
-    - <script src="https://anzhiy.cn/js/waterfall/waterfall.js"></script> 
+    #- <script data-pjax src="https://anzhiy.cn/js/waterfall/waterfall.js"></script> 
+    - <script async data-pjax src="/js/custom/waterfall.js"></script>
     # ip定位
     - <script src="/js/jquery.js"></script>
     - <script src="/js/ip.js"></script> 

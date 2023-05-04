@@ -176,6 +176,3 @@ cinema: # 追剧设置
   extra_options:
     key: value
 
-#文章双栏
-butterfly_article_double_row:
-  enable: true
