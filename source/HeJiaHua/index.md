@@ -6,7 +6,7 @@ layout: false
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>ðŸŽ‰ Happy New Year ~ ðŸŽ†</title>
+    <title>ðŸŽ‰ Happy Birthday ~ ðŸŽ†</title>
     <style>
       html,
       body {
@@ -18,7 +18,7 @@ layout: false
         background-color: #111;
       }
 
-      .fireworks-canvas, .word-container {
+      <!-- .fireworks-canvas, .word-container {
         position: absolute;
         left: 0;
         top: 0;
@@ -36,14 +36,14 @@ layout: false
       .word-canvas {
         will-change: transform;
       }
-    </style>
+    </style> -->
   </head>
 
   <body>
     <canvas id="fireworks" class="fireworks-canvas"></canvas>
-    <div class="word-container">
+    <!-- <div class="word-container">
       <canvas id="word" class="word-canvas"></canvas>
-    </div>
+    </div> -->
 
     <script src="./constants.js"></script>
     <script src="./utils.js"></script>
