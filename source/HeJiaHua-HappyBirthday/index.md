@@ -6,7 +6,7 @@ layout: false
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>ðŸŽ‰ Happy Birthday ~ ðŸŽ†</title>
+    <title>Happy birthday to u</title>
     <style>
       html,
       body {
